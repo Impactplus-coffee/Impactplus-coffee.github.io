@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tika Coffee Legacy | Adopt a Coffee Tree in Ethiopia</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .font-serif { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-[#FBF9F5] text-[#2C2623] antialiased">
+
+  <header class="sticky top-0 z-50 bg-[#FBF9F5]/90 backdrop-blur-md border-b border-[#EAE3D9]">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <span class="text-2xl">🌱</span>
+        <div>
+          <span class="font-serif text-xl font-bold tracking-tight text-[#1E1B18] block leading-none">Tika Coffee Legacy</span>
+          <span class="text-xs uppercase tracking-widest text-[#8C6D53] font-semibold">Ethiopia &bull; Europe</span>
+        </div>
+      </a>
+      
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-[#5A4D41]">
+        <a href="#about" class="hover:text-[#8C6D53] transition">About</a>
+        <a href="#project" class="hover:text-[#8C6D53] transition">The Farm</a>
+        <a href="#experience" class="hover:text-[#8C6D53] transition">Adoption Journey</a>
+        <a href="#impact" class="hover:text-[#8C6D53] transition">Impact &amp; Honesty</a>
+        <a href="#packages" class="hover:text-[#8C6D53] transition">Partnerships</a>
+      </nav>
+
+      <a href="#packages" class="hidden sm:inline-flex items-center px-5 py-2.5 rounded-full bg-[#2C2623] text-white text-sm font-semibold hover:bg-[#4A3F39] transition shadow-sm">
+        Partner With Us
+      </a>
+    </div>
+  </header>
+
+  <section id="home" class="relative overflow-hidden pt-20 pb-28 md:pt-32 md:pb-40 border-b border-[#EAE3D9]">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#EFE9DF] text-[#74563E] text-xs font-semibold tracking-wide uppercase mb-8">
+        Corporate Sustainability &bull; Direct From Ethiopia
+      </div>
+      <h1 class="font-serif text-5xl md:text-7xl font-bold text-[#1E1B18] max-w-4xl mx-auto leading-tight tracking-tight">
+        Adopt a Coffee Tree. <br><span class="italic font-normal text-[#8C6D53]">Grow a Legacy.</span>
+      </h1>
+      <p class="mt-6 text-lg md:text-xl text-[#5A4D41] max-w-2xl mx-auto leading-relaxed">
+        Connecting forward-thinking European companies directly with Ethiopian coffee origins. Empower your team, support local farming, and follow your tree's lifecycle from seedling to harvest.
+      </p>
+
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#packages" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-[#2C2623] text-white text-base font-semibold hover:bg-[#4A3F39] transition shadow-md">
+          Become a Founding Partner
+        </a>
+        <a href="#experience" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-white border border-[#DDD4C7] text-[#2C2623] text-base font-semibold hover:bg-[#F5EFE6] transition">
+          Explore the Journey &rarr;
+        </a>
+      </div>
+
+      <div class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto bg-white p-8 rounded-2xl border border-[#EAE3D9] shadow-sm text-left">
+        <div>
+          <div class="text-3xl font-serif font-bold text-[#2C2623]">5,000 Trees</div>
+          <div class="text-sm text-[#736353] mt-1">Our founding planting vision</div>
+        </div>
+        <div>
+          <div class="text-3xl font-serif font-bold text-[#2C2623]">100% Traceable</div>
+          <div class="text-sm text-[#736353] mt-1">Direct origin Arabica plots</div>
+        </div>
+        <div>
+          <div class="text-3xl font-serif font-bold text-[#2C2623]">Direct Impact</div>
+          <div class="text-sm text-[#736353] mt-1">Fair local wages & regenerative care</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="py-24 border-b border-[#EAE3D9] bg-[#F7F4EE]">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-3xl mb-16">
+        <span class="text-xs uppercase tracking-widest text-[#8C6D53] font-bold">The Origin & Ground Reality</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold text-[#1E1B18] mt-2">The 1-Hectare Arabica Sanctuary</h2>
+        <p class="mt-4 text-[#5A4D41] text-lg">
+          Managed by <strong>Tika General Trading</strong>, our project bridges European corporate stewardship with authentic Ethiopian agricultural traditions.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6">
+          <div class="p-6 bg-white rounded-xl border border-[#EAE3D9]">
+            <h3 class="font-serif text-xl font-bold text-[#2C2623]">Heritage Arabica Cultivar</h3>
+            <p class="mt-2 text-sm text-[#5A4D41] leading-relaxed">
+              Ethiopia is the birthplace of Arabica. Our trees are grown in optimal high-altitude soils, utilizing shade-grown techniques that protect native biodiversity.
+            </p>
+          </div>
+
+          <div class="p-6 bg-white rounded-xl border border-[#EAE3D9]">
+            <h3 class="font-serif text-xl font-bold text-[#2C2623]">Managed Leased Land Structure</h3>
+            <p class="mt-2 text-sm text-[#5A4D41] leading-relaxed">
+              Operating under transparent land leases, Tika General Trading oversees everyday agronomical care, labor standards, irrigation, and security on site.
+            </p>
+          </div>
+
+          <div class="p-6 bg-white rounded-xl border border-[#EAE3D9]">
+            <h3 class="font-serif text-xl font-bold text-[#2C2623]">Verified Geo-Coordinates</h3>
+            <p class="mt-2 text-sm text-[#5A4D41] leading-relaxed">
+              Every partner block is mapped with GPS coordinates and photographic documentation so your organization can trace its exact location.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-[#ECE5D8] rounded-2xl p-8 border border-[#DFD5C6] flex flex-col justify-between min-h-[420px]">
+          <div>
+            <div class="inline-block px-3 py-1 bg-[#2C2623] text-white text-xs font-semibold rounded-md mb-4">Location Verified</div>
+            <h3 class="font-serif text-2xl font-bold text-[#1E1B18]">Long-Term Agricultural Vision</h3>
+            <p class="mt-3 text-sm text-[#5A4D41] leading-relaxed">
+              From preparing seedling beds to nursery nurturing, planting, and cherry maturity, coffee is a multi-year relationship. We build durable agricultural infrastructure that serves communities for decades.
+            </p>
+          </div>
+          <div class="mt-8 pt-6 border-t border-[#DFD5C6] text-xs text-[#7A6B5D]">
+            Project Manager: <strong>Tika General Trading</strong> &bull; Location: Ethiopia
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="py-24 border-b border-[#EAE3D9]">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-3xl mx-auto mb-20">
+        <span class="text-xs uppercase tracking-widest text-[#8C6D53] font-bold">The Corporate Experience</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold text-[#1E1B18] mt-2">How It Works for Your Team</h2>
+        <p class="mt-4 text-[#5A4D41] text-base">A memorable engagement tool for European employees, clients, and ESG storytelling.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-6 relative">
+        <div class="bg-white p-6 rounded-xl border border-[#EAE3D9] flex flex-col">
+          <div class="w-10 h-10 rounded-full bg-[#F5EFE6] text-[#8C6D53] flex items-center justify-center font-bold text-sm mb-4">01</div>
+          <h4 class="font-bold text-[#1E1B18] mb-2">Sponsor</h4>
+          <p class="text-xs text-[#5A4D41] leading-relaxed">Your company reserves a batch of trees for employees, executives, or clients.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-[#EAE3D9] flex flex-col">
+          <div class="w-10 h-10 rounded-full bg-[#F5EFE6] text-[#8C6D53] flex items-center justify-center font-bold text-sm mb-4">02</div>
+          <h4 class="font-bold text-[#1E1B18] mb-2">Registration</h4>
+          <p class="text-xs text-[#5A4D41] leading-relaxed">Each tree is assigned unique GPS identifiers and tag numbers in our farm ledger.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-[#EAE3D9] flex flex-col">
+          <div class="w-10 h-10 rounded-full bg-[#F5EFE6] text-[#8C6D53] flex items-center justify-center font-bold text-sm mb-4">03</div>
+          <h4 class="font-bold text-[#1E1B18] mb-2">Certificate</h4>
+          <p class="text-xs text-[#5A4D41] leading-relaxed">Recipients receive custom digital adoption certificates with company branding.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-[#EAE3D9] flex flex-col">
+          <div class="w-10 h-10 rounded-full bg-[#F5EFE6] text-[#8C6D53] flex items-center justify-center font-bold text-sm mb-4">04</div>
+          <h4 class="font-bold text-[#1E1B18] mb-2">Updates</h4>
+          <p class="text-xs text-[#5A4D41] leading-relaxed">Seasonal visual reports detailing pruning, rainy seasons, and growth milestones.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-[#EAE3D9] flex flex-col">
+          <div class="w-10 h-10 rounded-full bg-[#F5EFE6] text-[#8C6D53] flex items-center justify-center font-bold text-sm mb-4">05</div>
+          <h4 class="font-bold text-[#1E1B18] mb-2">Harvest Link</h4>
+          <p class="text-xs text-[#5A4D41] leading-relaxed">Future connection to roasted specialty coffee beans harvested from your block.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact" class="py-24 bg-[#F3EFEA] border-b border-[#EAE3D9]">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-3xl mb-16">
+        <span class="text-xs uppercase tracking-widest text-[#8C6D53] font-bold">Uncompromising Honesty</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold text-[#1E1B18] mt-2">Real Actions, Zero Greenwashing</h2>
+        <p class="mt-4 text-[#5A4D41] text-base leading-relaxed">
+          We do not make unverified carbon-offset claims. We focus strictly on measurable ground realities: ethical employment, soil regeneration, and transparent progress reporting.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9]">
+          <div class="text-3xl mb-4">👩🏾‍🌾</div>
+          <h3 class="font-serif text-xl font-bold text-[#1E1B18] mb-2">Fair Local Employment</h3>
+          <p class="text-sm text-[#5A4D41] leading-relaxed">
+            Creating dignified, above-average agricultural jobs for local community members in weeding, shade-tree planting, and agronomy management.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9]">
+          <div class="text-3xl mb-4">🌿</div>
+          <h3 class="font-serif text-xl font-bold text-[#1E1B18] mb-2">Regenerative Care</h3>
+          <p class="text-sm text-[#5A4D41] leading-relaxed">
+            Utilizing organic composting, minimal synthetic disruption, and multi-canopy agroforestry that protects the local watershed.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9]">
+          <div class="text-3xl mb-4">📑</div>
+          <h3 class="font-serif text-xl font-bold text-[#1E1B18] mb-2">Verified Status Reports</h3>
+          <p class="text-sm text-[#5A4D41] leading-relaxed">
+            No vague promises. Partners receive scheduled photographic audits showing actual farm progress and resource allocation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages" class="py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-widest text-[#8C6D53] font-bold">Join As A Founding Partner</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold text-[#1E1B18] mt-2">Partnership Tiers</h2>
+        <p class="mt-4 text-[#5A4D41] text-base">Select the package that fits your company's CSR and team engagement goals.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 items-stretch">
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9] flex flex-col justify-between hover:shadow-lg transition">
+          <div>
+            <h3 class="font-serif text-xl font-bold text-[#1E1B18]">Pilot Partner</h3>
+            <div class="mt-4 flex items-baseline gap-1">
+              <span class="text-4xl font-serif font-bold text-[#2C2623]">100</span>
+              <span class="text-xs text-[#736353] uppercase font-semibold">Trees</span>
+            </div>
+            <p class="mt-4 text-xs text-[#5A4D41] leading-relaxed">Ideal for testing corporate employee gifting or small boutique team initiatives.</p>
+          </div>
+          <a href="mailto:info@tikacoffee.com?subject=Inquiry:%20Pilot%20Partner%20(100%20Trees)" class="mt-8 block text-center py-3 rounded-lg border border-[#2C2623] text-xs font-bold uppercase tracking-wider text-[#2C2623] hover:bg-[#2C2623] hover:text-white transition">Request Package</a>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9] flex flex-col justify-between hover:shadow-lg transition">
+          <div>
+            <h3 class="font-serif text-xl font-bold text-[#1E1B18]">Growth Partner</h3>
+            <div class="mt-4 flex items-baseline gap-1">
+              <span class="text-4xl font-serif font-bold text-[#2C2623]">500</span>
+              <span class="text-xs text-[#736353] uppercase font-semibold">Trees</span>
+            </div>
+            <p class="mt-4 text-xs text-[#5A4D41] leading-relaxed">Perfect for medium enterprises looking to build an authentic department-wide initiative.</p>
+          </div>
+          <a href="mailto:info@tikacoffee.com?subject=Inquiry:%20Growth%20Partner%20(500%20Trees)" class="mt-8 block text-center py-3 rounded-lg border border-[#2C2623] text-xs font-bold uppercase tracking-wider text-[#2C2623] hover:bg-[#2C2623] hover:text-white transition">Request Package</a>
+        </div>
+
+        <div class="bg-[#2C2623] text-white p-8 rounded-2xl flex flex-col justify-between shadow-xl relative scale-105 border border-[#443B36]">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 bg-[#8C6D53] text-white text-[10px] font-bold uppercase tracking-widest rounded-full">Most Popular</div>
+          <div>
+            <h3 class="font-serif text-xl font-bold text-white">Impact Partner</h3>
+            <div class="mt-4 flex items-baseline gap-1">
+              <span class="text-4xl font-serif font-bold text-white">1,000</span>
+              <span class="text-xs text-[#C8B8A6] uppercase font-semibold">Trees</span>
+            </div>
+            <p class="mt-4 text-xs text-[#DDD4C7] leading-relaxed">Dedicated row sponsorship, branded certificates, and direct harvest integration.</p>
+          </div>
+          <a href="mailto:info@tikacoffee.com?subject=Inquiry:%20Impact%20Partner%20(1,000%20Trees)" class="mt-8 block text-center py-3 rounded-lg bg-[#8C6D53] text-white text-xs font-bold uppercase tracking-wider hover:bg-[#A38165] transition">Request Package</a>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9] flex flex-col justify-between hover:shadow-lg transition">
+          <div>
+            <h3 class="font-serif text-xl font-bold text-[#1E1B18]">Legacy Partner</h3>
+            <div class="mt-4 flex items-baseline gap-1">
+              <span class="text-4xl font-serif font-bold text-[#2C2623]">2,500+</span>
+              <span class="text-xs text-[#736353] uppercase font-semibold">Trees</span>
+            </div>
+            <p class="mt-4 text-xs text-[#5A4D41] leading-relaxed">Co-branded farm section, bespoke CSR video reporting, and tailored executive origin visits.</p>
+          </div>
+          <a href="mailto:info@tikacoffee.com?subject=Inquiry:%20Legacy%20Partner%20(2,500+%20Trees)" class="mt-8 block text-center py-3 rounded-lg border border-[#2C2623] text-xs font-bold uppercase tracking-wider text-[#2C2623] hover:bg-[#2C2623] hover:text-white transition">Request Package</a>
+        </div>
+      </div>
+
+      <div class="mt-20 bg-[#ECE5D8] rounded-3xl p-10 md:p-14 text-center max-w-4xl mx-auto border border-[#DFD5C6]">
+        <h3 class="font-serif text-3xl md:text-4xl font-bold text-[#1E1B18]">Ready to Grow Your Company's Tree Legacy?</h3>
+        <p class="mt-4 text-[#5A4D41] max-w-xl mx-auto text-sm md:text-base">
+          Schedule a direct introductory call to review our land lease documentation, planting schedule, and customized corporate certificates.
+        </p>
+        <div class="mt-8">
+          <a href="mailto:info@tikacoffee.com?subject=Request%20a%20Partnership%20Discussion" class="inline-flex items-center px-8 py-4 rounded-xl bg-[#2C2623] text-white font-semibold text-base hover:bg-[#4A3F39] transition shadow-lg">
+            Request a Partnership Discussion
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-[#1E1B18] text-[#A69B91] py-12 border-t border-[#332E2A]">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs">
+      <div>
+        <p class="font-semibold text-white">Tika Coffee Legacy &bull; Tika General Trading</p>
+        <p class="mt-1">Empowering connections between Ethiopian coffee roots and European enterprises.</p>
+      </div>
+      <div>
+        &copy; 2026 Tika Coffee Legacy. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
