@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,11 +9,17 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', sans-serif; }
     .font-serif { font-family: 'Playfair Display', serif; }
+    html { scroll-padding-top: 5.5rem; }
+    .nav-link.active {
+      color: #8C6D53 !important;
+      font-weight: 700;
+      border-bottom: 2px solid #8C6D53;
+    }
   </style>
 </head>
 <body class="bg-[#FBF9F5] text-[#2C2623] antialiased">
 
-  <header class="sticky top-0 z-50 bg-[#FBF9F5]/90 backdrop-blur-md border-b border-[#EAE3D9]">
+  <header class="sticky top-0 z-50 bg-[#FBF9F5]/95 backdrop-blur-md border-b border-[#EAE3D9] transition-all duration-200">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <a href="#home" class="flex items-center gap-3">
         <span class="text-2xl">🌱</span>
@@ -24,20 +30,36 @@
       </a>
       
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-[#5A4D41]">
-        <a href="#about" class="hover:text-[#8C6D53] transition">About</a>
-        <a href="#project" class="hover:text-[#8C6D53] transition">The Farm</a>
-        <a href="#experience" class="hover:text-[#8C6D53] transition">Adoption Journey</a>
-        <a href="#impact" class="hover:text-[#8C6D53] transition">Impact &amp; Honesty</a>
-        <a href="#packages" class="hover:text-[#8C6D53] transition">Partnerships</a>
+        <a href="#home" class="nav-link py-1 hover:text-[#8C6D53] transition">Home</a>
+        <a href="#project" class="nav-link py-1 hover:text-[#8C6D53] transition">The Farm</a>
+        <a href="#experience" class="nav-link py-1 hover:text-[#8C6D53] transition">Adoption Journey</a>
+        <a href="#impact" class="nav-link py-1 hover:text-[#8C6D53] transition">Impact &amp; Honesty</a>
+        <a href="#packages" class="nav-link py-1 hover:text-[#8C6D53] transition">Partnerships</a>
       </nav>
 
-      <a href="#packages" class="hidden sm:inline-flex items-center px-5 py-2.5 rounded-full bg-[#2C2623] text-white text-sm font-semibold hover:bg-[#4A3F39] transition shadow-sm">
+      <div class="flex items-center gap-4">
+        <a href="#packages" class="hidden sm:inline-flex items-center px-5 py-2.5 rounded-full bg-[#2C2623] text-white text-sm font-semibold hover:bg-[#4A3F39] transition shadow-sm">
+          Partner With Us
+        </a>
+        <button id="mobileMenuBtn" class="md:hidden p-2 text-[#2C2623] focus:outline-none text-2xl" aria-label="Toggle menu">
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="hidden md:hidden px-6 pt-2 pb-6 bg-[#FBF9F5] border-b border-[#EAE3D9] flex flex-col gap-4 text-sm font-medium text-[#5A4D41]">
+      <a href="#home" class="mobile-nav-link hover:text-[#8C6D53]">Home</a>
+      <a href="#project" class="mobile-nav-link hover:text-[#8C6D53]">The Farm</a>
+      <a href="#experience" class="mobile-nav-link hover:text-[#8C6D53]">Adoption Journey</a>
+      <a href="#impact" class="mobile-nav-link hover:text-[#8C6D53]">Impact &amp; Honesty</a>
+      <a href="#packages" class="mobile-nav-link hover:text-[#8C6D53]">Partnerships</a>
+      <a href="#packages" class="inline-flex justify-center items-center px-4 py-2.5 rounded-full bg-[#2C2623] text-white text-sm font-semibold">
         Partner With Us
       </a>
     </div>
   </header>
 
-  <section id="home" class="relative overflow-hidden pt-20 pb-28 md:pt-32 md:pb-40 border-b border-[#EAE3D9]">
+  <section id="home" class="relative overflow-hidden pt-16 pb-24 md:pt-28 md:pb-36 border-b border-[#EAE3D9]">
     <div class="max-w-7xl mx-auto px-6 text-center">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#EFE9DF] text-[#74563E] text-xs font-semibold tracking-wide uppercase mb-8">
         Corporate Sustainability &bull; Direct From Ethiopia
@@ -159,4 +181,173 @@
         </div>
 
         <div class="bg-white p-6 rounded-xl border border-[#EAE3D9] flex flex-col">
-          <div class="w-10 h-10 rounded-full bg-[#F5EFE6] text-[#8C6D53] flex items-center justify-center font-bold text-sm
+          <div class="w-10 h-10 rounded-full bg-[#F5EFE6] text-[#8C6D53] flex items-center justify-center font-bold text-sm mb-4">05</div>
+          <h4 class="font-bold text-[#1E1B18] mb-2">Harvest Link</h4>
+          <p class="text-xs text-[#5A4D41] leading-relaxed">Future connection to roasted specialty coffee beans harvested from your block.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact" class="py-24 bg-[#F3EFEA] border-b border-[#EAE3D9]">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-3xl mb-16">
+        <span class="text-xs uppercase tracking-widest text-[#8C6D53] font-bold">Uncompromising Honesty</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold text-[#1E1B18] mt-2">Real Actions, Zero Greenwashing</h2>
+        <p class="mt-4 text-[#5A4D41] text-base leading-relaxed">
+          We do not make unverified carbon-offset claims. We focus strictly on measurable ground realities: ethical employment, soil regeneration, and transparent progress reporting.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9]">
+          <div class="text-3xl mb-4">👩🏾‍🌾</div>
+          <h3 class="font-serif text-xl font-bold text-[#1E1B18] mb-2">Fair Local Employment</h3>
+          <p class="text-sm text-[#5A4D41] leading-relaxed">
+            Creating dignified, above-average agricultural jobs for local community members in weeding, shade-tree planting, and agronomy management.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9]">
+          <div class="text-3xl mb-4">🌿</div>
+          <h3 class="font-serif text-xl font-bold text-[#1E1B18] mb-2">Regenerative Care</h3>
+          <p class="text-sm text-[#5A4D41] leading-relaxed">
+            Utilizing organic composting, minimal synthetic disruption, and multi-canopy agroforestry that protects the local watershed.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9]">
+          <div class="text-3xl mb-4">📑</div>
+          <h3 class="font-serif text-xl font-bold text-[#1E1B18] mb-2">Verified Status Reports</h3>
+          <p class="text-sm text-[#5A4D41] leading-relaxed">
+            No vague promises. Partners receive scheduled photographic audits showing actual farm progress and resource allocation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages" class="py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-widest text-[#8C6D53] font-bold">Join As A Founding Partner</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold text-[#1E1B18] mt-2">Partnership Tiers</h2>
+        <p class="mt-4 text-[#5A4D41] text-base">Select the package that fits your company's CSR and team engagement goals.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 items-stretch">
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9] flex flex-col justify-between hover:shadow-lg transition">
+          <div>
+            <h3 class="font-serif text-xl font-bold text-[#1E1B18]">Pilot Partner</h3>
+            <div class="mt-4 flex items-baseline gap-1">
+              <span class="text-4xl font-serif font-bold text-[#2C2623]">100</span>
+              <span class="text-xs text-[#736353] uppercase font-semibold">Trees</span>
+            </div>
+            <p class="mt-4 text-xs text-[#5A4D41] leading-relaxed">Ideal for testing corporate employee gifting or boutique team initiatives.</p>
+          </div>
+          <a href="mailto:info@impactpluscoffee.com?subject=Inquiry:%20Pilot%20Partner%20(100%20Trees)" class="mt-8 block text-center py-3 rounded-lg border border-[#2C2623] text-xs font-bold uppercase tracking-wider text-[#2C2623] hover:bg-[#2C2623] hover:text-white transition">Request Package</a>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9] flex flex-col justify-between hover:shadow-lg transition">
+          <div>
+            <h3 class="font-serif text-xl font-bold text-[#1E1B18]">Growth Partner</h3>
+            <div class="mt-4 flex items-baseline gap-1">
+              <span class="text-4xl font-serif font-bold text-[#2C2623]">500</span>
+              <span class="text-xs text-[#736353] uppercase font-semibold">Trees</span>
+            </div>
+            <p class="mt-4 text-xs text-[#5A4D41] leading-relaxed">Perfect for medium enterprises looking to build an authentic company-wide initiative.</p>
+          </div>
+          <a href="mailto:info@impactpluscoffee.com?subject=Inquiry:%20Growth%20Partner%20(500%20Trees)" class="mt-8 block text-center py-3 rounded-lg border border-[#2C2623] text-xs font-bold uppercase tracking-wider text-[#2C2623] hover:bg-[#2C2623] hover:text-white transition">Request Package</a>
+        </div>
+
+        <div class="bg-[#2C2623] text-white p-8 rounded-2xl flex flex-col justify-between shadow-xl relative scale-105 border border-[#443B36]">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 bg-[#8C6D53] text-white text-[10px] font-bold uppercase tracking-widest rounded-full">Most Popular</div>
+          <div>
+            <h3 class="font-serif text-xl font-bold text-white">Impact Partner</h3>
+            <div class="mt-4 flex items-baseline gap-1">
+              <span class="text-4xl font-serif font-bold text-white">1,000</span>
+              <span class="text-xs text-[#C8B8A6] uppercase font-semibold">Trees</span>
+            </div>
+            <p class="mt-4 text-xs text-[#DDD4C7] leading-relaxed">Dedicated row sponsorship, branded certificates, and direct harvest integration.</p>
+          </div>
+          <a href="mailto:info@impactpluscoffee.com?subject=Inquiry:%20Impact%20Partner%20(1,000%20Trees)" class="mt-8 block text-center py-3 rounded-lg bg-[#8C6D53] text-white text-xs font-bold uppercase tracking-wider hover:bg-[#A38165] transition">Request Package</a>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-[#EAE3D9] flex flex-col justify-between hover:shadow-lg transition">
+          <div>
+            <h3 class="font-serif text-xl font-bold text-[#1E1B18]">Legacy Partner</h3>
+            <div class="mt-4 flex items-baseline gap-1">
+              <span class="text-4xl font-serif font-bold text-[#2C2623]">2,500+</span>
+              <span class="text-xs text-[#736353] uppercase font-semibold">Trees</span>
+            </div>
+            <p class="mt-4 text-xs text-[#5A4D41] leading-relaxed">Co-branded farm section, bespoke CSR video reporting, and tailored executive origin visits.</p>
+          </div>
+          <a href="mailto:info@impactpluscoffee.com?subject=Inquiry:%20Legacy%20Partner%20(2,500+%20Trees)" class="mt-8 block text-center py-3 rounded-lg border border-[#2C2623] text-xs font-bold uppercase tracking-wider text-[#2C2623] hover:bg-[#2C2623] hover:text-white transition">Request Package</a>
+        </div>
+      </div>
+
+      <div class="mt-20 bg-[#ECE5D8] rounded-3xl p-10 md:p-14 text-center max-w-4xl mx-auto border border-[#DFD5C6]">
+        <h3 class="font-serif text-3xl md:text-4xl font-bold text-[#1E1B18]">Ready to Grow Your Company's Tree Legacy?</h3>
+        <p class="mt-4 text-[#5A4D41] max-w-xl mx-auto text-sm md:text-base">
+          Schedule a direct introductory call with Impact plus Coffee to review our land documentation, planting schedule, and customized corporate certificates.
+        </p>
+        <div class="mt-8">
+          <a href="mailto:info@impactpluscoffee.com?subject=Request%20a%20Partnership%20Discussion" class="inline-flex items-center px-8 py-4 rounded-xl bg-[#2C2623] text-white font-semibold text-base hover:bg-[#4A3F39] transition shadow-lg">
+            Request a Partnership Discussion
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-[#1E1B18] text-[#A69B91] py-12 border-t border-[#332E2A]">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs">
+      <div>
+        <p class="font-semibold text-white">Impact plus Coffee</p>
+        <p class="mt-1">Empowering connections between Ethiopian coffee roots and European enterprises.</p>
+      </div>
+      <div>
+        &copy; 2026 Impact plus Coffee. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // ScrollSpy: Highlight active nav link on scroll
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        const sectionHeight = section.clientHeight;
+        if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
